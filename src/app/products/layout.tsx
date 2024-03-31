@@ -1,6 +1,15 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 
 import styles from './layout.module.css';
+
+export const metadata: Metadata = {
+  title: '제품 사이트 | 전체 제품 확인',
+  description: '제품을 판매하는 곳',
+  icons: {
+    icon: '/favicon.ico',
+  },
+};
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
