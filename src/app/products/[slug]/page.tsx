@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 
 import { getProduct, getProducts } from '@/service/products';
 
-export const revalidate = 3; // 3초
+// export const revalidate = 3; // 3초
 
 type Props = {
   params: {
